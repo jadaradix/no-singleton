@@ -1,6 +1,6 @@
 # no-singleton
 
-This demo shows that CommonJS' dependency resolution - present in Browserify as well - prevents duplicate "copies" using require(). Problems arise when you do require("...")() - there are extremely few cases when that is necessary (and you would need a singleton as a result - not because singletons are necessary, but because you're doing that).
+This demo shows that CommonJS' dependency resolution - present in Browserify as well - prevents duplicate "copies" using require(). Problems arise when you do require("...")() - there are really very few cases when that is necessary (and a singleton would be needed as a result - not because singletons are necessary, but because of ()).
 
 Try it like this:
 
